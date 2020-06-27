@@ -26,11 +26,11 @@ at_exit do
   ReportBuilder.configure do |config|
     config.input_path = 'log/report.json'
     config.report_path = 'log/report'
-    config.report_types = [:json, :html]
+    config.report_types = %i[json html]
     config.report_title = 'PicPay QA Engineer Challenge!'
     config.include_images = true
     config.additional_info = @infos
-    config.color = 'indigo'
+    config.color = 'green'
   end
   ReportBuilder.build_report
 end
