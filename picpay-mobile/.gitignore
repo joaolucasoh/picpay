@@ -1,0 +1,5 @@
+log/android/*.html
+log/ios/*.html
+log/android/*.png
+log/ios/*.png
+log/*.json

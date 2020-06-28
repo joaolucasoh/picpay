@@ -1,0 +1,12 @@
+[caps]
+platformName = "Android"
+deviceName = "Samsung Pixel 2"
+udid = "192.168.56.107:5555"
+app = "https://drive.google.com/file/d/1cyfmJcBciECF5ruSARNnmo3TH3KFvSrJ/view?usp=sharing"
+autoGrantPermissions = "true"
+appActivity = "com.fooddelivery_pro.MainActivity"
+appPackage = "com.fooddelivery_pro"
+automationName = "uiautomator2"
+unicodeKeyboard = "true"
+resetKeyboard = "true"
+wdaLocalPort = "8100"
