@@ -9,6 +9,7 @@ Basically we need to install:
 * Ruby
 * vscode
 * Appium
+* Genymotion(device emulator)
 
 ## Technologies
 The project uses the following technologies:
