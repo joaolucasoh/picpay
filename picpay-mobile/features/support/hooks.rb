@@ -36,9 +36,9 @@ at_exit do
                            "log/ios/#{DEVICE}_report"
                          end
     config.report_types = [:html]
-    config.report_title = 'Livelo - Food'
+    config.report_title = 'PicPay - QA Engineer Challenge'
     config.additional_info = @infos
-    config.color = 'pink'
+    config.color = 'green'
   end
   ReportBuilder.build_report
 end
