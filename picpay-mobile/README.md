@@ -9,6 +9,7 @@ Basically we need to install:
 * Ruby
 * vscode
 * Appium
+* Genymotion(device emulator)
 
 ## Technologies
 The project uses the following technologies:
@@ -26,6 +27,12 @@ After following the instructions contained in the Setup folder, and in the proje
   <b>bundle install</b>
 
 All gems contained in the Gemfile file have been installed. <b>:)</b>
+
+### Installing and configuring Genymotion:
+Genymotion it's a Cross-platform Android emulator for developers & QA engineers.
+I created a file with a step-by-step guide to configure it in order to have an emulator available for us to use in our tests. ;)
+
+https://drive.google.com/file/d/1-_hDFYtSqK5F7-mMyNUNoOg9S00KGWUm/view?usp=sharing
 
 ### How do I run my scenarios?
 * cucumber (run all scenarios)
