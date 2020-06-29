@@ -17,19 +17,19 @@ module Android
     include CommonsButtons
     attr_reader :register
 
-    def register_screen?
+    def confirm_page
       btn_im_new
       btn_im_not_new
     end
 
-    def fields?
+    def confirm_fields
       btn_im_new.click
       email
       phone
       passw
     end
 
-    def happy_register
+    def register_successfuly
       email.click
       email.send_keys(Faker::Internet.email)
       phone.click
@@ -52,7 +52,7 @@ module Android
       find_element(xpath: '//*[contains(@text, "Loading")]')
     end
 
-    def categories_page?(categories, popular)
+    def confirm_categories_page(categories, popular)
       sleep 2
       find_element(xpath: "//*[contains(@text, #{categories})]")
       find_element(xpath: "//*[contains(@text, #{popular})]")
@@ -63,7 +63,7 @@ module Android
     include CommonsButtons
     attr_reader :skipcode
 
-    def skip_message?
+    def confirm_skip_message
       btn_skip.click
       find_element(id: 'android:id/alertTitle').displayed?
     end
@@ -72,7 +72,7 @@ module Android
       find_element(xpath: '//*[contains(@text, "OK")]').click
     end
 
-    def skip_first
+    def skip_first_option
       find_element(xpath: '//*[contains(@text, "Skip")]').click
     end
   end
