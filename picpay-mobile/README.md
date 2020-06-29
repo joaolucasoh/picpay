@@ -28,6 +28,12 @@ After following the instructions contained in the Setup folder, and in the proje
 
 All gems contained in the Gemfile file have been installed. <b>:)</b>
 
+### Installing and configuring Genymotion:
+Genymotion it's a Cross-platform Android emulator for developers & QA engineers.
+I created a file with a step-by-step guide to configure it in order to have an emulator available for us to use in our tests. ;)
+
+https://drive.google.com/file/d/1-_hDFYtSqK5F7-mMyNUNoOg9S00KGWUm/view?usp=sharing
+
 ### How do I run my scenarios?
 * cucumber (run all scenarios)
 * cucumber <b>-t @scenario_name</b> (runs a specific scenario according to the tag.)
